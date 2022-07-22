@@ -39,6 +39,7 @@
 }
 body {
     background-color: var(--Primary-Cream);
+    margin: 0;
 }
 @media (min-width: 992px) {
     .container {
@@ -52,6 +53,9 @@ body {
         padding-right: 200px;
     }
 }
+.container .card {
+    padding-top: 100px;
+}
 .container .card .pic {
     height: 260px;
     background-image: url(../images/image-product-mobile.jpg);
@@ -61,6 +65,7 @@ body {
 .container .card .content {
     background-color: white;
     padding: 25px;
+    border-radius: 0 0 10px 10px;
 }
 @media (min-width: 768px) {
     .container {
